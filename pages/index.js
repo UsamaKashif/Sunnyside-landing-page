@@ -28,18 +28,18 @@ export default function Home() {
           <div className={styles.imgCard}>
             <Image
               src="/images/image-transform.jpg"
-              layout="responsive"
-              width={100}
-              height={80}
+              layout="fill"
+              // width={100}
+              // height={80}
             />
           </div>
 
           <div className={styles.imgCard}>
             <Image
               src="/images/image-stand-out.jpg"
-              layout="responsive"
-              width={100}
-              height={80}
+              layout="fill"
+              // width={100}
+              // height={80}
             />
           </div>
 
@@ -52,9 +52,9 @@ export default function Home() {
           <div className={styles.imgCard}>
             <Image
               src="/images/image-graphic-design.jpg"
-              layout="responsive"
-              width={100}
-              height={80}
+              layout="fill"
+              // width={100}
+              // height={80}
             />
             <div className={styles.contentOverlay}>
               <h4>Graphic Design</h4>
@@ -65,9 +65,9 @@ export default function Home() {
           <div className={styles.imgCard}>
             <Image
               src="/images/image-photography.jpg"
-              layout="responsive"
-              width={100}
-              height={80}
+              layout="fill"
+              // width={100}
+              // height={80}
             />
 
             <div className={styles.contentOverlay}>

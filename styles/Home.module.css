@@ -11,6 +11,7 @@
 }
 
 .textCard{
+  height: 590px;
   padding: 100px;
   display: flex;
   flex-direction: column;
@@ -42,7 +43,7 @@
 
 .imgCard{
   width: 100%;
-  height: 100%;
+  height: 590px;
   position: relative;
 }
 
@@ -73,4 +74,57 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+
+@media (max-width: 974px){
+  .textCard{
+    padding: 50px;
+  }
+}
+
+@media (max-width: 760px){
+  .textCard h1{
+    font-size: 30px;
+    
+  }
+  .imgCard{
+    height: 400px;
+  }
+  
+  .textCard{
+    height: 400px;
+    padding: 45px;
+  }
+
+  .contentOverlay h4{
+    font-size: 18px;
+  }
+
+  .contentOverlay{
+    width: 60%;
+    top: 60%;
+  }
+  .contentOverlay p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 570px) {
+  .grid2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .textCard{
+    align-items: center;
+  }
+
+  .grid4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }

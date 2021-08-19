@@ -40,3 +40,51 @@
     font-weight: var(--font-f-weight-7) !important;
 }
 
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 940px)
+{
+    .hamburger{
+        display: block;
+    }
+
+    .navLinks{
+        padding-top: 30px;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        top: 106px;
+        transform: translateX(-50%);
+        width: 80%;
+        background-color: var(--White);
+
+        transition: all .15s ease;
+    }
+
+    .navLinks li {
+        margin-right: 0;
+        margin-bottom: 30px;
+        color: var(--Grayishblue);
+    }
+
+    .contactBtn{
+        background-color: var(--Yellow);
+        color: var(--Darkblue) !important;
+    }
+
+    .hide{
+        /* display: none; */
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .toggle {
+        /* display: flex; */
+        opacity: 1;
+    }
+
+
+}
