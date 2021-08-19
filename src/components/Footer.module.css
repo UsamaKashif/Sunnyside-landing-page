@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--Darkmoderatecyan);
+    width: 100%;
+    text-align: center;
+
+    padding-top: 40px;
+}
+
+.footer h1{
+    font-family: var(--font-fraunces);
+    color: var(--Verydarkdesaturatedblue);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer ul li{
+    color: var(--Grayishblue);
+    cursor: pointer;
+}
+
+.socials{
+    margin: 0 auto;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}

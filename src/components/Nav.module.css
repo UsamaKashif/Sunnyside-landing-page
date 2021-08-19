@@ -1,0 +1,42 @@
+.nav{
+    width: 100%;
+    background: transparent;
+    padding: 51px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1{
+    color: var(--White);
+    font-family: var(--font-brlow);
+    font-weight: var(--font-b-weight);
+    font-size: 30px;
+}
+
+.navLinks{
+    display: flex;
+    align-items: center;
+}
+
+.navLinks li{
+    margin-right: 50px;
+    color: var(--White);
+    font-family: var(--font-brlow);
+    cursor: pointer;
+}
+
+.contactBtn{
+    width: 139px;
+    height: 57px;
+    border-radius: 30px;
+    background-color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Darkgrayishblue) !important;
+    font-family: var(--font-f-weight-9) !important;
+    margin-right: 0;
+    font-weight: var(--font-f-weight-7) !important;
+}
+

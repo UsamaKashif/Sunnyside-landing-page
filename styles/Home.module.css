@@ -1,0 +1,76 @@
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
+}
+
+.textCard{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.textCard h1{
+  color: var(--Darkblue);
+  font-family: var(--font-fraunces);
+  font-size: 50px;
+  font-weight: var(--font-f-weight-7);
+}
+
+.textCard p {
+  font-family: var(--font-brlow);
+  color: var(--Darkblue);
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.textCard button{
+  color: var(--Darkblue);
+  font-family: var(--font-fraunces);
+  font-weight: var(--font-f-weight-7);
+  border-bottom: 3px solid var(--Yellow);
+}
+
+.imgCard{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.contentOverlay{
+  width: 55%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 65%;
+}
+
+.contentOverlay h4{
+  color: var(--Darkblue);
+  font-family: var(--font-fraunces);
+  font-weight: var(--font-f-weight-7);
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.contentOverlay p {
+  font-family: var(--font-brlow);
+  color: var(--Darkblue);
+}
+
+.grid4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
