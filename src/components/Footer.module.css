@@ -35,3 +35,21 @@
     align-items: center;
     padding-bottom: 40px;
 }
+
+@media (max-width: 1000px){
+    .footer ul {
+        width: 25%;
+    }
+    .socials {
+        width: 15%;
+    }
+}
+
+@media (max-width: 750px){
+    .footer ul {
+        width: 230px;
+    }
+    .socials {
+        width: 150px;
+    }
+}

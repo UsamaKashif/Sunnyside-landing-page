@@ -33,3 +33,9 @@
     width: 36px;
     height: 100px;
 }
+
+@media (max-width: 500px){
+    .title{
+        font-size: 35px;
+    }
+}

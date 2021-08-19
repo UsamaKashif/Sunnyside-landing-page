@@ -76,13 +76,13 @@
     }
 
     .hide{
-        /* display: none; */
+        display: none;
         opacity: 0;
         pointer-events: none;
     }
 
     .toggle {
-        /* display: flex; */
+        display: flex;
         opacity: 1;
     }
 

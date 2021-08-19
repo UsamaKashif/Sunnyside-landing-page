@@ -29,8 +29,6 @@ export default function Home() {
             <Image
               src="/images/image-transform.jpg"
               layout="fill"
-              // width={100}
-              // height={80}
             />
           </div>
 
@@ -38,8 +36,6 @@ export default function Home() {
             <Image
               src="/images/image-stand-out.jpg"
               layout="fill"
-              // width={100}
-              // height={80}
             />
           </div>
 
@@ -53,8 +49,6 @@ export default function Home() {
             <Image
               src="/images/image-graphic-design.jpg"
               layout="fill"
-              // width={100}
-              // height={80}
             />
             <div className={styles.contentOverlay}>
               <h4>Graphic Design</h4>
@@ -66,8 +60,6 @@ export default function Home() {
             <Image
               src="/images/image-photography.jpg"
               layout="fill"
-              // width={100}
-              // height={80}
             />
 
             <div className={styles.contentOverlay}>
